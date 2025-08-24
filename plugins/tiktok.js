@@ -11,7 +11,7 @@ const tiktok = async (m, Matrix) => {
   if (cmd === "tiktok" && (text === "menu" || text === "" || !text.startsWith("http"))) {
     const buttonMessage = {
       text: `🎵 *TikTok Downloader Menu*\n\nSend *${prefix}tiktok <url>* to download a TikTok video\n\nExample: *${prefix}tiktok https://vm.tiktok.com/ABC123/*`,
-      footer: "CASEYRHODES-XMD 👻 TikTok Downloader",
+      footer: "GALAXY-MD 👻 TikTok Downloader",
       buttons: [
         { buttonId: `${prefix}help`, buttonText: { displayText: "Help" }, type: 1 },
         { buttonId: `${prefix}tiktok https://example.com`, buttonText: { displayText: "Example" }, type: 1 }
@@ -61,8 +61,8 @@ const tiktok = async (m, Matrix) => {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363302677217436@newsletter",
-          newsletterName: "CASEYRHODES-XMD 👻",
+          newsletterJid: "120363419723191331@newsletter",
+          newsletterName: "GALAXY-MD 👻",
           serverMessageId: 143,
         },
       },
@@ -76,7 +76,7 @@ const tiktok = async (m, Matrix) => {
       mimetype: "audio/mpeg",
       fileName: "TikTok_Audio.mp3",
       caption: "🎶 *TikTok Audio Downloaded*",
-      footer: "CASEYRHODES-XMD 👻 TikTok Downloader",
+      footer: "GALAXY-MD 👻 TikTok Downloader",
       buttons: [{ buttonId: `${prefix}tiktok menu`, buttonText: { displayText: "Download Another" }, type: 1 }]
     };
     
