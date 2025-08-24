@@ -19,14 +19,8 @@ const alive = async (m, Matrix) => {
     
     if (selectedButtonId === `${prefix}audio`) {
       const audioUrls = [
-        'https://files.catbox.moe/m0xfku.mp3',
-        'https://files.catbox.moe/8stziq.mp3',
-        'https://files.catbox.moe/3au05j.m4a',
-        'https://files.catbox.moe/dcxfi1.mp3',
-        'https://files.catbox.moe/ebkzu5.mp3',
-        'https://files.catbox.moe/xsa1ig.mp3',
-        'https://files.catbox.moe/iq4ouj.mp3',
-        'https://files.catbox.moe/wtux78.mp3'
+        ',
+        'https://files.catbox.moe/ooqm90.mp3'
       ];
 
       const randomAudioUrl = audioUrls[Math.floor(Math.random() * audioUrls.length)];
@@ -69,7 +63,7 @@ const alive = async (m, Matrix) => {
   ];
 
   const buttonMessage = {
-    image: fs.readFileSync('./media/Casey.jpg'),
+    image: fs.readFileSync('./media/boniphace.jpg'),
     caption: str,
     footer: 'Choose an option',
     buttons: buttons,
@@ -79,8 +73,8 @@ const alive = async (m, Matrix) => {
       forwardingScore: 999,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363302677217436@newsletter',
-        newsletterName: "JINX-XMD",
+        newsletterJid: '120363419723191331@newsletter',
+        newsletterName: "GALAXY-XMD",
         serverMessageId: 143
       }
     }
