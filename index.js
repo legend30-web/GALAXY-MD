@@ -47,7 +47,7 @@ async function downloadSessionData() {
         return false;
     }
 
-    const sessdata = config.SESSION_ID.split("Caseyrhodes~")[1];
+    const sessdata = config.SESSION_ID.split("galaxy~")[1];
 
     if (!sessdata || !sessdata.includes("#")) {
         console.error('❌ Invalid SESSION_ID format! It must contain both file ID and decryption key.');
@@ -80,16 +80,16 @@ async function start() {
     try {
         const { state, saveCreds } = await useMultiFileAuthState(sessionDir);
         const { version, isLatest } = await fetchLatestBaileysVersion();
-        console.log(`🤖 JINX-MD using WA v${version.join('.')}, isLatest: ${isLatest}`);
+        console.log(`🤖 GALAXY-MD using WA v${version.join('.')}, isLatest: ${isLatest}`);
         
         const Matrix = makeWASocket({
             version,
             logger: pino({ level: 'silent' }),
             printQRInTerminal: useQR,
-            browser: ["JINX-MD", "safari", "3.3"],
+            browser: ["GALAXY-MD", "safari", "3.3"],
             auth: state,
             getMessage: async () => {
-                return { conversation: "JINX-MD whatsapp user bot" };
+                return { conversation: "GALAXY-MD whatsapp user bot" };
             }
         });
 
@@ -101,23 +101,23 @@ async function start() {
                 }
             } else if (connection === 'open') {
                 if (initialConnection) {
-                    console.log(chalk.green("Connected Successfully JINX-XMD 🤍"));
+                    console.log(chalk.green("Connected Successfully GALAXY-MD 🤍"));
                     
                     // Send welcome message after successful connection with buttons
                     const startMess = {
-                        image: { url: "https://files.catbox.moe/y3j3kl.jpg" }, 
-                        caption: `*Hello there JINX-XMD User! 👋🏻* 
+                        image: { url: "https://files.catbox.moe/k07bn6.jpg" }, 
+                        caption: `*Hello there GALAXY-MD User! 👋🏻* 
 
-> Simple, Straightforward, But Loaded With Features 🎊. Meet JINX-XMD WhatsApp Bot.
-*Thanks for using JINX-XMD 🚩* 
+> Simple, Straightforward, But Loaded With Features 🎊. Meet GALAXY-MD WhatsApp Bot.
+*Thanks for using GALAXY-MD 🚩* 
 Join WhatsApp Channel: ⤵️  
-> https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E
+> https://whatsapp.com/channel/0029VbAve6TFnSzF6VkEce2S
 
 - *YOUR PREFIX:* = ${prefix}
 
 Don't forget to give a star to the repo ⬇️  
-> https://github.com/caseyweb/CASEYRHODES-XMD
-> © Powered BY CASEYRHODES TECH 🍀 🖤`,
+> https://github.com/legend30-web/GALAXY-MD
+> © Powered BY GALAXY-MD 🍀 🖤`,
                         buttons: [
                             {
                                 buttonId: 'help',
@@ -158,17 +158,17 @@ Don't forget to give a star to the repo ⬇️
                 const selected = m.message.buttonsResponseMessage.selectedButtonId;
                 if (selected === 'help') {
                     await Matrix.sendMessage(m.key.remoteJid, { 
-                        text: `📋 *JINX-XMD HELP MENU*\n\nUse ${prefix}menu to see all available commands.\nUse ${prefix}list to see command categories.` 
+                        text: `📋 *GALAXY MD HELP MENU*\n\nUse ${prefix}menu to see all available commands.\nUse ${prefix}list to see command categories.` 
                     });
                     return;
                 } else if (selected === 'menu') {
                     await Matrix.sendMessage(m.key.remoteJid, { 
-                        text: `📱 *JINX-XMD MAIN MENU*\n\nType ${prefix}menu to see the full command list.\nType ${prefix}all to see all features.` 
+                        text: `📱 *GALAXY-MD MAIN MENU*\n\nType ${prefix}menu to see the full command list.\nType ${prefix}all to see all features.` 
                     });
                     return;
                 } else if (selected === 'source') {
                     await Matrix.sendMessage(m.key.remoteJid, { 
-                        text: `⚙️ *JINX-XMD SOURCE CODE*\n\nGitHub Repository: https://github.com/caseyweb/CASEYRHODES-XMD\n\nGive it a star ⭐ if you like it!` 
+                        text: `⚙️ *GALAXY-MD SOURCE CODE*\n\nGitHub Repository: https://github.com/legend30-web/GALAXY-MD\n\nGive it a star ⭐ if you like it!` 
                     });
                     return;
                 }
@@ -245,7 +245,7 @@ Don't forget to give a star to the repo ⬇️
                     await Matrix.readMessages([mek.key]);
                     
                     if (config.AUTO_STATUS_REPLY) {
-                        const customMessage = config.STATUS_READ_MSG || '✅ Auto Status Seen Bot By JINX-XMD';
+                        const customMessage = config.STATUS_READ_MSG || '✅ Auto Status Seen Bot By GALAXY-MD';
                         await Matrix.sendMessage(fromJid, { text: customMessage }, { quoted: mek });
                     }
                 }
