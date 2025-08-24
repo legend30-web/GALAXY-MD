@@ -38,7 +38,7 @@ const Lyrics = async (m, Matrix) => {
           {
             name: "cta_copy",
             buttonParamsJson: JSON.stringify({
-              display_text: "📋 ᴄᴏᴘʏ ʟʏʀɪᴄs",
+              display_text: "📋 galaxy md",
               id: "copy_code",
               copy_code: lyrics
             })
@@ -46,15 +46,15 @@ const Lyrics = async (m, Matrix) => {
           {
             name: "quick_reply",
             buttonParamsJson: JSON.stringify({
-              display_text: "🏠 ʀᴇᴛᴜʀɴ ᴛᴏ ᴍᴇɴᴜ",
+              display_text: "🏠 galaxy md",
               id: ".menu"
             })
           },
           {
             name: "cta_url",
             buttonParamsJson: JSON.stringify({
-              display_text: "sʜᴏᴡ 💜 ғᴏʀ ᴋʜᴀɴ-ᴍᴅ",
-              url: `https://whatsapp.com/channel/0029Vaj1hl1Lo4hksSXY0U2t`
+              display_text: "galaxy",
+              url: `https://whatsapp.com/channel/0029VbAve6TFnSzF6VkEce2S`
             })
           }
         ];
@@ -71,7 +71,7 @@ const Lyrics = async (m, Matrix) => {
                   text: lyrics
                 }),
                 footer: proto.Message.InteractiveMessage.Footer.create({
-                  text: "> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴀɪ*"
+                  text: "> *© galaxy md*"
                 }),
                 header: proto.Message.InteractiveMessage.Header.create({
                   title: "",
