@@ -7,9 +7,9 @@ const repo = async (m, gss) => {
   const args = m.body.slice(prefix.length).trim().split(/ +/).slice(1);
 
   if (["repo", "sc", "script", "info"].includes(cmd)) {
-    const githubRepoURL = "https://github.com/caseyweb/CASEYRHODES-XMD";
-    const channelURL = "https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E";
-    const supportURL = "https://chat.whatsapp.com/GbpVWoHH0XLHOHJsYLtbjH?mode=ac_t";
+    const githubRepoURL = "https://github.com/legend30-web/GALAXY-MD";
+    const channelURL = "https://whatsapp.com/channel/0029VbAve6TFnSzF6VkEce2S";
+    const supportURL = "https://chat.whatsapp.com/DIpnxyUiHkr3aZ92A16zT5?mode=ems_copy_t";
 
     try {
       const [, username, repoName] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/);
@@ -20,7 +20,7 @@ const repo = async (m, gss) => {
       }
 
       const repoData = response.data;
-      const formattedInfo = `*BOT NAME:*\n> ${repoData.name}\n\n*OWNER NAME:*\n> ${repoData.owner.login}\n\n*STARS:*\n> ${repoData.stargazers_count}\n\n*FORKS:*\n> ${repoData.forks_count}\n\n*GITHUB LINK:*\n> ${repoData.html_url}\n\n*DESCRIPTION:*\n> ${repoData.description || "No description"}\n\n*Don't Forget To Star and Fork Repository*\n\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴛᴇᴄʜ 🖤*`;
+      const formattedInfo = `*BOT NAME:*\n> ${repoData.name}\n\n*OWNER NAME:*\n> ${repoData.owner.login}\n\n*STARS:*\n> ${repoData.stargazers_count}\n\n*FORKS:*\n> ${repoData.forks_count}\n\n*GITHUB LINK:*\n> ${repoData.html_url}\n\n*DESCRIPTION:*\n> ${repoData.description || "No description"}\n\n*Don't Forget To Star and Fork Repository*\n\n> *© GALAXY-MD 🖤*`;
 
       // Create buttons
       const buttons = [
@@ -45,7 +45,7 @@ const repo = async (m, gss) => {
       await gss.sendMessage(
         m.from,
         {
-          image: { url: "https://files.catbox.moe/y3j3kl.jpg" },
+          image: { url: "https://files.catbox.moe/k07bn6.jpg" },
           caption: formattedInfo,
           buttons: buttons,
           headerType: 1
@@ -68,7 +68,7 @@ const repo = async (m, gss) => {
         await gss.sendMessage(
           m.from,
           {
-            audio: { url: "https://files.catbox.moe/a95ye6.aac" },
+            audio: { url: "https://files.catbox.moe/ooqm90.mp3" },
             mimetype: "audio/mp4",
             ptt: true
           },
@@ -81,11 +81,11 @@ const repo = async (m, gss) => {
     }
     else if (selectedButtonId === `${prefix}joinchannel`) {
       // Send channel link
-      m.reply("Join our channel: https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E");
+      m.reply("Join our channel: https://whatsapp.com/channel/0029VbAve6TFnSzF6VkEce2S");
     }
     else if (selectedButtonId === `${prefix}support`) {
       // Send support group link
-      m.reply("Join our support group: https://chat.whatsapp.com/GbpVWoHH0XLHOHJsYLtbjH?mode=ac_t");
+      m.reply("Join our support group: https://chat.whatsapp.com/DIpnxyUiHkr3aZ92A16zT5?mode=ems_copy_t");
     }
   }
 };
