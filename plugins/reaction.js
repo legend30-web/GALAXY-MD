@@ -60,7 +60,7 @@ const stickerCommandHandler = async (m, gss) => {
 
   // Handle direct sticker commands
   if (stickerCommands.includes(cmd)) {
-    const packname = `CASEYRHODES-AI`;
+    const packname = `GALAXY `;
     const author = '';
 
     try {
