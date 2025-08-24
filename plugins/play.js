@@ -231,7 +231,7 @@ const play = async (message, client) => {
         await sendCustomReaction(client, message, "❌");
         
         return await client.sendMessage(message.from, {
-          text: "*ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴀɪ* " + toFancyFont("couldn't process your request. Please try again later"),
+          text: "*GALAXY-MD* " + toFancyFont("couldn't process your request. Please try again later"),
           viewOnce: true,
           mentions: [message.sender]
         }, { quoted: message });
@@ -269,7 +269,7 @@ const play = async (message, client) => {
         await sendCustomReaction(client, message, "❌");
         
         return await client.sendMessage(message.from, {
-          text: "*ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴀɪ* " + toFancyFont("failed to send audio file"),
+          text: "*GALAXY-MD* " + toFancyFont("failed to send audio file"),
           viewOnce: true,
           mentions: [message.sender]
         }, { quoted: message });
@@ -281,7 +281,7 @@ const play = async (message, client) => {
     await sendCustomReaction(client, message, "❌");
     
     await client.sendMessage(message.from, {
-      text: "*ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴀɪ* " + toFancyFont("encountered an error. Please try again"),
+      text: "*GALAXY-MD* " + toFancyFont("encountered an error. Please try again"),
       viewOnce: true,
       mentions: [message.sender]
     }, { quoted: message });
