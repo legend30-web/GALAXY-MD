@@ -6,7 +6,7 @@ const stickerCommand = async (m, gss) => {
   const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0].toLowerCase() : '';
   const text = m.body.slice(prefix.length + cmd.length).trim();
 
-  const packname = global.packname || "Caseyrhodes-MD";
+  const packname = global.packname || "GalaxyXtech";
   const author = global.author || "🖤🌟";
 
   const validCommands = ['sticker', 's', 'autosticker'];
@@ -64,7 +64,7 @@ const stickerCommand = async (m, gss) => {
         // Success message with buttons
         const buttonMessage = {
           text: "✅ Sticker created successfully!\n\nWhat would you like to do next?",
-          footer: "Caseyrhodes-MD",
+          footer: "Galaxy-MD",
           buttons: [
             { buttonId: `${prefix}sticker`, buttonText: { displayText: "🎨 Make Another" }, type: 1 },
             { buttonId: `${prefix}help`, buttonText: { displayText: "📖 Help" }, type: 1 }
@@ -79,7 +79,7 @@ const stickerCommand = async (m, gss) => {
         // Success message with buttons
         const buttonMessage = {
           text: "✅ Video sticker created successfully!\n\nWhat would you like to do next?",
-          footer: "Caseyrhodes-MD",
+          footer: "GALAXY-MD",
           buttons: [
             { buttonId: `${prefix}sticker`, buttonText: { displayText: "🎬 Make Another" }, type: 1 },
             { buttonId: `${prefix}help`, buttonText: { displayText: "📖 Help" }, type: 1 },
@@ -98,7 +98,7 @@ const stickerCommand = async (m, gss) => {
       // Error message with button
       const errorButtonMessage = {
         text: `❌ Error: ${error.message}\n\nNeed help?`,
-        footer: "Caseyrhodes-MD",
+        footer: "Galaxy-MD",
         buttons: [
           { buttonId: `${prefix}help`, buttonText: { displayText: "📖 Get Help" }, type: 1 }
         ],
