@@ -24,7 +24,7 @@ const ping = async (m, Matrix) => {
     const end = new Date().getTime();
     const responseTime = (end - start) / 1000;
 
-    const text = `> *CASEYRHODES SPEED: ${responseTime.toFixed(2)}ms ${reactionEmoji}*\n\n` +
+    const text = `> *GALAXY SPEED: ${responseTime.toFixed(2)}ms ${reactionEmoji}*\n\n` +
                  `Select an option below:`;
 
     const buttons = [
@@ -47,9 +47,9 @@ const ping = async (m, Matrix) => {
 
     // Create the button message with image
     const buttonMessage = {
-      image: { url: "https://files.catbox.moe/y3j3kl.jpg" },
+      image: { url: "https://files.catbox.moe/k07bn6.jpg" },
       caption: text,
-      footer: "Caseyrhodes Performance Menu",
+      footer: "Galaxy Performance Menu",
       buttons: buttons,
       headerType: 4,
       contextInfo: {
@@ -57,8 +57,8 @@ const ping = async (m, Matrix) => {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363302677217436@newsletter',
-          newsletterName: "Caseyrhodes Xtech",
+          newsletterJid: '120363419723191331@newsletter',
+          newsletterName: "Galaxy Xtech",
           serverMessageId: 143
         }
       }
@@ -70,7 +70,7 @@ const ping = async (m, Matrix) => {
   // Handle the audio button
   if (cmd === "sendaudio") {
     const audioUrls = [
-      'https://files.catbox.moe/m0xfku.mp3',
+      'https://files.catbox.moe/ooqm90.mp3',
       // Add more audio URLs as needed
     ];
     
