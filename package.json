@@ -1,7 +1,7 @@
 {
-  "name": "Caseyrhodes-AI",
+  "name": "GALAXY-MD",
   "version": "10.8.1",
-  "description": "Caseyrhodes-AI latest multi device whatsapp bot",
+  "description": "GALAXY-MD latest multi device whatsapp bot",
   "main": "index.js",
   "engines": {
   "node": ">=20.x",
@@ -9,12 +9,12 @@
   },
   "type": "module",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name Caseyrhodes-AI",
+    "start": "pm2 start index.js --deep-monitoring --attach --name GALAXY-MD",
     "stop": "pm2 stop ",
-    "restart": "pm2 restart Caseyrhodes-AI"
+    "restart": "pm2 restart GALAXY-MD"
   },
-  "keywords": ["Caseyrhodes-AI", "whatsapp-bot", "whatsapp md bot"],
-  "author": "NjabuloJ",
+  "keywords": ["GALAXY-MD", "whatsapp-bot", "whatsapp md bot"],
+  "author": "GALAXY",
   "license": "ISC",
   "dependencies": {
     "@whiskeysockets/baileys": "github:EdderBot02/bail",
