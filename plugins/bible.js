@@ -43,7 +43,7 @@ const bibleCommand = async (m, Matrix) => {
       }
 
       const verses = data.verses ? data.verses.length : 1;
-      const message = `*${toFancyFont("Caseyrhodes Bible")}*\n\n*${toFancyFont("Reading:")}* ${data.reference}\n*${toFancyFont("Verse:")}* ${verses}\n\n*${toFancyFont("Read:")}*\n${data.text}\n\n*${toFancyFont("Translation:")}* ${data.translation_name}`;
+      const message = `*${toFancyFont("Galaxy Bible")}*\n\n*${toFancyFont("Reading:")}* ${data.reference}\n*${toFancyFont("Verse:")}* ${verses}\n\n*${toFancyFont("Read:")}*\n${data.text}\n\n*${toFancyFont("Translation:")}* ${data.translation_name}`;
 
       const buttonMessage = {
         text: message,
