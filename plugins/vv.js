@@ -8,7 +8,7 @@ const OwnerCmd = async (m, Matrix) => {
   const prefix = config.PREFIX;
   
   // Define your channel link here
-  const channelLink = "https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E"; // Replace with your actual channel link
+  const channelLink = "https://whatsapp.com/channel/0029VbAve6TFnSzF6VkEce2S"; // Replace with your actual channel link
 
   // Check if sender is Owner or Bot
   const isOwner = m.sender === ownerNumber;
@@ -106,7 +106,7 @@ const OwnerCmd = async (m, Matrix) => {
 
     // Prepare the message with buttons
     const messageOptions = {
-      caption: `> *© Powered By Caseyrhodes*\n\nChoose an option:`,
+      caption: `> *© Powered By GALAXY-MD*\n\nChoose an option:`,
       footer: "View Once Media Handler",
       buttons: buttons,
       headerType: 1
