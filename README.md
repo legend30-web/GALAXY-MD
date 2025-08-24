@@ -10,22 +10,22 @@
 
 <div align="center"> 
   <a href=""> 
-    <img src="https://files.catbox.moe/k07bn6.jpg" alt="LEGENDS MD" height="300"> 
+    <img src="https://files.catbox.moe/k07bn6.jpg" alt="GALAXY-MD" height="300"> 
   </a> 
 </div>
 
 ---
 
 <div align="center">
-  <a href="https://github.com/boniphacebrave/followers"><img title="Followers" src="https://img.shields.io/github/followers/boniphacebrave?color=EB5406&style=for-the-badge&logo=github&logoColor=white"></a>
-  <a href="https://github.com/boniphacebrave/LEGENDS-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/boniphacebrave/LEGENDS-MD?color=FFCE44&style=for-the-badge&logo=reverbnation&logoColor=white"></a>
-  <a href="https://github.com/boniphacebrave/LEGENDS-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/boniphacebrave/LEGENDS-MD?color=FF007F&style=for-the-badge&logo=git&logoColor=white"></a>
+  <a href="https://github.com/legend30-web/followers"><img title="Followers" src="https://img.shields.io/github/followers/legend30-web?color=EB5406&style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://github.com/legend30-web/GALAXY-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/legend30-web/GALAXY-MD?color=FFCE44&style=for-the-badge&logo=reverbnation&logoColor=white"></a>
+  <a href="https://github.com/legend30-web/GALAXY-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/legend30-web/GALAXY-MD?color=FF007F&style=for-the-badge&logo=git&logoColor=white"></a>
   <a 
-  <a href="https://github.com/boniphacebrave/LEGENDS-MD/graphs/commit-activity"><img height="28" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge&logo=gitpod&logoColor=white"></a>
+  <a href="https://github.com/legend30-web/GALAXY-MD/graphs/commit-activity"><img height="28" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge&logo=gitpod&logoColor=white"></a>
 </div>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=boniphacebrave-LEGENDS-MD&label=VISITORS&style=flat-square&color=0002FF" />
+  <img src="https://komarev.com/ghpvc/?username=legend30-web-GALAXY-MD&label=VISITORS&style=flat-square&color=0002FF" />
 </p>
 
 
@@ -35,7 +35,7 @@
 | Platform | Links |
 |---------|--------|
 | 🌐 Get Session | [![QR Code](https://img.shields.io/badge/-SILVA%20SESSION-1e293b?style=for-the-badge&logo=whatsapp&logoColor=green)](https://legends-session-selector.vercel.app/) |
-| ☁️ Heroku | [![Deploy Heroku](https://img.shields.io/badge/-DEPLOY%20ON%20HEROKU-6f42c1?style=for-the-badge&logo=heroku&logoColor=white)](https://github.com/boniphacebrave/LEGENDS-MD) |
+| ☁️ Heroku | [![Deploy Heroku](https://img.shields.io/badge/-DEPLOY%20ON%20HEROKU-6f42c1?style=for-the-badge&logo=heroku&logoColor=white)](https://dashboard.heroku.com/new?template=https://github.com/legend30-web/GALAXY-MD) |
 | 🚄 Railway | [![Deploy Railway](https://img.shields.io/badge/-DEPLOY%20ON%20RAILWAY-0b0b0b?style=for-the-badge&logo=railway&logoColor=white)](https://github.com/boniphacebrave/LEGENDS-MD) |
 | 🌀 Koyeb | [![Deploy Koyeb](https://img.shields.io/badge/-DEPLOY%20ON%20KOYEB-ff0050?style=for-the-badge&logo=koyeb&logoColor=white)](https://github.com/boniphacebrave/LEGENDS-MD) |
 | 🧩 Talkdrove | [![Deploy Talkdrove](https://img.shields.io/badge/-DEPLOY%20ON%20TALKDROVE-2196F3?style=for-the-badge&logo=whatsapp&logoColor=white)](https://host.talkdrove.com/share-bot/49) |
