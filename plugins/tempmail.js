@@ -74,7 +74,7 @@ const tempMailCommand = async (m, Matrix) => {
                                 text: `Generated Temporary Email: ${tempEmail}`
                             }),
                             footer: proto.Message.InteractiveMessage.Footer.create({
-                                text: "© Powered By 𝞢𝙏𝞖𝞘𝞦-𝞛𝘿"
+                                text: "© Powered By GALAXY-MD"
                             }),
                             header: proto.Message.InteractiveMessage.Header.create({
                                 title: "Temporary Email",
@@ -164,7 +164,7 @@ const tempMailCommand = async (m, Matrix) => {
                                 text: inboxMessages
                             }),
                             footer: proto.Message.InteractiveMessage.Footer.create({
-                                text: "© Powered By 🇸​​🇮​​🇱​​🇻​​🇦​ ​🇪​​🇹​​🇭​​🇮​​🇽​-𝞛𝘿"
+                                text: "© Powered By GALAXY-MD"
                             }),
                             header: proto.Message.InteractiveMessage.Header.create({
                                 title: "Inbox Results",
