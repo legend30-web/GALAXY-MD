@@ -62,7 +62,7 @@ const leaveGroup = async (m, Matrix) => {
         },
       };
       return Matrix.sendMessage(m.from, {
-        text: ` ${toFancyFont("yo")}, ${toFancyFont("dumbass")}, *CASEYRHODES* ${toFancyFont("only")} ${toFancyFont("ditches")} ${toFancyFont("groups")}! ${toFancyFont("this")} ${toFancyFont("ain't")} ${toFancyFont("one")}! 😤🏠`,
+        text: ` ${toFancyFont("yo")}, ${toFancyFont("dumbass")}, *GALAXY* ${toFancyFont("only")} ${toFancyFont("ditches")} ${toFancyFont("groups")}! ${toFancyFont("this")} ${toFancyFont("ain't")} ${toFancyFont("one")}! 😤🏠`,
         ...messageOptions,
       }, { quoted: m });
     }
@@ -89,7 +89,7 @@ const leaveGroup = async (m, Matrix) => {
     }
 
     await Matrix.sendMessage(m.from, {
-      text: ` *Caseyrhodes*'s ${toFancyFont("out")} ${toFancyFont("this")} ${toFancyFont("bitch")}! ${toFancyFont("peace")}, ${toFancyFont("losers")}!`,
+      text: ` *galazy*'s ${toFancyFont("out")} ${toFancyFont("this")} ${toFancyFont("bitch")}! ${toFancyFont("peace")}, ${toFancyFont("losers")}!`,
       viewOnce: true,
     }, { quoted: m });
 
@@ -111,7 +111,7 @@ const leaveGroup = async (m, Matrix) => {
       },
     };
     await Matrix.sendMessage(m.from, {
-      text: `*Njabulo Jb* ${toFancyFont("fucked")} ${toFancyFont("up")} ${toFancyFont("tryin'")} ${toFancyFont("to")} ${toFancyFont("ditch")}, ${toFancyFont("fam")}! ${toFancyFont("somethin'")} ${toFancyFont("busted")}!`,
+      text: `*GALAXY* ${toFancyFont("fucked")} ${toFancyFont("up")} ${toFancyFont("tryin'")} ${toFancyFont("to")} ${toFancyFont("ditch")}, ${toFancyFont("fam")}! ${toFancyFont("somethin'")} ${toFancyFont("busted")}!`,
       ...messageOptions,
     }, { quoted: m });
   }
