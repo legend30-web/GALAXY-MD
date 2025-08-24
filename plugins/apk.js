@@ -101,7 +101,7 @@ const apkDownloader = async (m, Matrix) => {
 ┃  *Updated On:* ${app.updated}
 ┃  *Developer:* ${app.developer.name}
 ╰━━━━━━━━━━━━━━━┈⊷
-> *ᴍᴀᴅᴇ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴛᴇᴄʜ*`;
+> *regarding Galaxy Md*`;
 
     // Prepare the document with buttons
     const docMedia = await prepareWAMessageMedia(
