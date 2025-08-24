@@ -1,9 +1,9 @@
 {
-  "name": "CASEYRHODES TECH",
-  "description": "I am Caseyrhodes tech WhatsApp MultiDevice Bot built in NodeJs to enhance the experience.",
-  "logo": "https://files.catbox.moe/neni8p.jpg",
-  "keywords": ["NjabuloJb-elite"],
-  "repository": "https://github.com/caseyweb/Caseyrhodes-AI",
+  "name": "GALAXY-MD TECH",
+  "description": "I am Galaxy-MD.",
+  "logo": "https://files.catbox.moe/k07bn6.jpg",
+  "keywords": ["galaxy-elite"],
+  "repository": "https://github.com/legend30-web/GALAXY-MD",
   "stack": "container",
   "env": { 
       "SESSION_ID": {
@@ -19,17 +19,17 @@
     "BOT_NAME": {
       "description": "change bot name what you want!",
       "required": false,
-      "value": "Caseyrhodes tech"
+      "value": "Galaxy-MD tech"
     },
     "MENU_IMAGE": {
       "description": "change menu image if want otherwise use default",
       "required": false,
-      "value": "https://files.catbox.moe/7l1tt5.jpg"
+      "value": "https://files.catbox.moe/k07bn6.jpg"
     },
     "DESCRIPTION": {
       "description": "add caption for menu and etc",
       "required": false,
-      "value": "> powered by Caseyrhodes"
+      "value": "> powered by galaxy-team"
     },
     "ANTI_DELETE": {
       "description": "set path for antidelete for same chat set to same",
@@ -65,12 +65,12 @@
     "OWNER_NAME": {
       "description": "set owner name",
       "required": false,
-      "value": "Caseyrhodes tech"
+      "value": "Galaxy-MD tech"
     },
     "OWNER_NUMBER": {
       "description": "set your owner number",
       "required": false,
-      "value": "254112192119"
+      "value": "25594373476"
     },
     "AUTO_READ": {
       "description": "make it true if you want bot to read message",
